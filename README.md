@@ -15,12 +15,14 @@ Back-end code for an ecommerce application using MySQL and Sequalize to easily m
 ## Installation
 1. Make sure to have [MySQL](https://www.mysql.com/) and [Node.js](https://nodejs.org/en) installed before continuing
 2. Download code files
-3. Navigate your CLI to the folder containing the code files
-4. Run the code `npm i` to install dependencies from package.json
-5. Enter `mysql -u root -p` and enter your MySQL password when prompted
-6. Once in MySQL, run the code `source db/schema.sql` to set up the schematics of the database
-7. Exit MySQL by typing `quit`
-8. Seed the database with test data by running the code `npm run seed`
+3. In your downloaded files, rename '.env.EXAMPLE' to '.env'
+4. Open your .env file and add your MySQL username and password between the empty quotes
+5. Navigate your CLI to the folder containing the code files
+6. Run the code `npm i` to install dependencies from package.json
+7. Enter `mysql -u root -p` and enter your MySQL password when prompted
+8. Once in MySQL, run the code `source db/schema.sql` to set up the schematics of the database
+9. Exit MySQL by typing `quit`
+10. Seed the database with test data by running the code `npm run seed`
 
 ## How to Test
 1. Install the application [Insomnia](https://insomnia.rest/products/insomnia)
